@@ -1,6 +1,6 @@
 const qs = el => document.querySelector(el);
 
-const accessToken = '837b5ca43ca6f4fd53aba386c0518f3255806e2d'
+const accessToken = '06fe0b00ac6146beda97caa9f0ceda382ad27a85'
 const url = `https://www.strava.com/api/v3/athletes/17552785/stats?access_token=${accessToken}`;
 
 const distanceInKM = metres => metres/1000;
